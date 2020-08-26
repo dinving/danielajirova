@@ -1,0 +1,294 @@
+/* font-family: 'Homemade Apple', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Rubik', sans-serif; */
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+/* main {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+} */
+
+/* button {
+  color: white;
+  background-color: rgb(75, 146, 240);
+  border-color: solid rgb(75, 146, 240);
+  padding: 10px;
+  justify-content: center;
+  border-radius: 6px;
+  width: 200px;
+  margin-left: 80px;
+  font-size: 20px;
+} */
+body {
+  /* background-image: URL("img/daniela_jirova_d.jpg");  obrázek na pozadí */
+  background-attachment: fixed; /*  pozadí neroluje */
+  background-color: black;
+  /* případnábarva pozadí černá  */
+  background-size: 99%;
+  color: white;
+}
+.image1 {
+  opacity: 0.45;
+  width: 101.3%;
+  margin-left: -15px;
+  margin-top: -15px;
+  margin-right: -25px;
+  margin-bottom: -40px;
+}
+
+.image2:hover {
+  opacity: 0.45;
+  width: 79%;
+}
+
+.image2 {
+  border-right: solid 5px darkslategray;
+  border-radius: 2px;
+}
+.image3 {
+  border-radius: 50%;
+  max-width: 50%;
+}
+.image4 {
+  max-width: 30%;
+}
+.image5 {
+  max-width: 80%;
+}
+.kontejner {
+  position: relative;
+  width: 700px;
+}
+
+.podpis {
+  font-size: 32px;
+  font-family: homemade apple;
+  position: absolute;
+  top: 330px;
+  left: 30px;
+  padding-top: 30px;
+  padding-left: 30px;
+  color: rgb(226, 241, 247);
+}
+h3 {
+  font-size: smaller;
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
+  padding: 30px;
+}
+h4 {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.white {
+  color: white;
+}
+.tit {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  top: 500px;
+  left: 200px;
+  padding: 30px;
+}
+
+.part {
+  background-color: white;
+  color: black;
+  margin-left: -15px;
+  margin-bottom: -30px;
+  width: 101.3%;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 10px;
+}
+.part2 {
+  /* background-color: rgb(180, 178, 178);
+  color: black; */
+  background-color: black;
+  color: white;
+  margin-left: -15px;
+  margin-bottom: -10px;
+  width: 101.3%;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 20px;
+}
+
+.omne {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 28%;
+  text-align: center;
+}
+
+.popisek {
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: left;
+
+  padding-left: 50px;
+  padding-bottom: 40px;
+}
+.popisek2 {
+  font-size: 14px;
+  line-height: 1.8;
+  text-align: left;
+
+  padding-left: 50px;
+  padding-bottom: 40px;
+}
+.popisek3 {
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: left;
+  /* padding-top: 40px; */
+}
+
+.menu {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  position: fixed;
+  top: 20px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 20px;
+}
+nav ul li:active {
+  /* list-style-type: none;
+  display: inline;
+  padding-bottom: 10px; */
+  border-bottom: solid 2px white;
+  font-weight: 100px;
+}
+nav ul li:hover {
+  /* list-style-type: none;
+  display: inline; */
+  /* padding-bottom: 10px; */
+  border-bottom: solid 2px white;
+  font-weight: bolder;
+}
+
+nav ul li a {
+  list-style-type: none;
+  text-decoration: none;
+  display: inline;
+  padding: 20px;
+  color: white;
+}
+footer {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 25px;
+}
+
+@media screen and (min-width: 0) and (max-width: 540px) {
+  .podpis {
+    font-size: 14px;
+    top: 130px;
+    left: 10px;
+  }
+  /* .popisek {
+    font-size: 12px;
+    line-height: 1.6;
+    text-align: left;  } */
+
+  .omne {
+    font-size: 20px;
+    text-align: left;
+    width: 101%;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  .image2 {
+    max-width: 80%;
+    /* text-align: center; */
+  }
+  .box {
+    /* padding-top: 40px;
+    padding-left: 50px;
+    padding-bottom: 40px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90%;
+    text-align: center;
+  }
+  /* .h3 {
+    margin-left: -30px;
+    text-align: left;
+  } */
+  .tit {
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 200px;
+    left: 45px;
+    padding: 30px;
+  }
+  .menu {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: smaller;
+  }
+}
+
+/* .ctverecek {
+  font: 30px/1 sans-serif;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.ctverecek:nth-child(5n + 1) {
+  background-color: #2ecc71;
+}
+.ctverecek:nth-child(5n + 2) {
+  background-color: #f1c40f;
+}
+.ctverecek:nth-child(5n + 3) {
+  background-color: #3498db;
+}
+.ctverecek:nth-child(5n + 4) {
+  background-color: #e74c3c;
+}
+.ctverecek:nth-child(5n + 5) {
+  background-color: #9b59b6;
+}
+
+.kontejner {
+  padding: 10px;
+  border: 1px dashed red;
+  background-color: #ffffcc;
+}
+img {
+  max-width: 100%;
+} */
+/* ---------------------------------------------------- */
